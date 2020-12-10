@@ -1,0 +1,68 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mygamehub-dev-201937-authRole",
+      "UnauthRoleArn": "arn:aws:iam::500893028446:role/amplify-mygamehub-dev-201937-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::500893028446:role/amplify-mygamehub-dev-201937-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mygamehub-dev-201937-deployment",
+      "UnauthRoleName": "amplify-mygamehub-dev-201937-unauthRole",
+      "StackName": "amplify-mygamehub-dev-201937",
+      "StackId": "arn:aws:cloudformation:us-east-1:500893028446:stack/amplify-mygamehub-dev-201937/ed343ec0-3a9e-11eb-89bc-12bdd946785e",
+      "AmplifyAppId": "d2sdns53d6bbsg"
+    }
+  },
+  "api": {
+    "mygamehub": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 365,
+              "description": "demo"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "w6rcvcvh6jbfxb2ijtqzplseni",
+        "GraphQLAPIEndpointOutput": "https://y6c7qevprjaqtnmkzjwoqbewxq.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-clhnufs2evcsdemyirkt2hfe74"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mygamehub-dev-201937-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apimygamehub"
+      },
+      "lastPushTimeStamp": "2020-12-10T04:37:52.742Z",
+      "lastPushDirHash": "XPO3CxIokniHndyVCt17q+5GtSQ="
+    }
+  },
+  "auth": {
+    "mygamehub9f5b50b2": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mygamehub-dev-201937-deployment/amplify-cfn-templates/auth/mygamehub9f5b50b2-cloudformation-template.yml",
+        "logicalId": "authmygamehub9f5b50b2"
+      },
+      "lastPushTimeStamp": "2020-12-10T04:39:37.566Z",
+      "lastPushDirHash": "RS3K0NSwUpteysnHyUPqbPlbmGQ="
+    }
+  },
+  "storage": {
+    "s3718fdcbe": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mygamehub-dev-201937-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storages3718fdcbe"
+      },
+      "lastPushTimeStamp": "2020-12-10T04:39:37.566Z",
+      "lastPushDirHash": "ZmmFoyfxMfkY9RVuWuf1onxyA+A="
+    }
+  }
+}

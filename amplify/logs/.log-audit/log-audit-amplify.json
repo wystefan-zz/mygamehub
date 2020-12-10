@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "/Users/yangwu/side-projects/mygamehub/amplify/logs/.log-audit/log-audit-amplify.json",
+    "files": [
+        {
+            "date": 1607573934357,
+            "name": "/Users/yangwu/side-projects/mygamehub/amplify/logs/amplify-cli-2020-12-09.log",
+            "hash": "5e4a387f653994f93cc07c82480c217e"
+        }
+    ]
+}

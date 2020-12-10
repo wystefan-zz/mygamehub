@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "mygamehub",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-mygamehub-dev-201937-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/86da2635354e4532eafa1d89e5e05e40d55f5b4b"
+}

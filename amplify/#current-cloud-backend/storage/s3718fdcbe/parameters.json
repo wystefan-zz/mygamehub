@@ -1,0 +1,31 @@
+{
+    "bucketName": "mygamehub96893ae7ade948148c41ecf867b2a531",
+    "authPolicyName": "s3_amplify_718fdcbe",
+    "unauthPolicyName": "s3_amplify_718fdcbe",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "selectedGuestPermissions": [
+        "s3:GetObject",
+        "s3:ListBucket"
+    ],
+    "selectedAuthenticatedPermissions": [
+        "s3:PutObject"
+    ],
+    "s3PermissionsAuthenticatedPublic": "s3:PutObject",
+    "s3PublicPolicy": "Public_policy_b7fb264d",
+    "s3PermissionsAuthenticatedUploads": "s3:PutObject",
+    "s3UploadsPolicy": "Uploads_policy_b7fb264d",
+    "s3PermissionsAuthenticatedProtected": "s3:PutObject",
+    "s3ProtectedPolicy": "Protected_policy_b7fb264d",
+    "s3PermissionsAuthenticatedPrivate": "s3:PutObject",
+    "s3PrivatePolicy": "Private_policy_b7fb264d",
+    "AuthenticatedAllowList": "DISALLOW",
+    "s3ReadPolicy": "read_policy_b7fb264d",
+    "s3PermissionsGuestPublic": "DISALLOW",
+    "s3PermissionsGuestUploads": "DISALLOW",
+    "GuestAllowList": "DISALLOW"
+}
