@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mygamehub-dev-201937-authRole",
+      "UnauthRoleArn": "arn:aws:iam::500893028446:role/amplify-mygamehub-dev-201937-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::500893028446:role/amplify-mygamehub-dev-201937-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mygamehub-dev-201937-deployment",
+      "UnauthRoleName": "amplify-mygamehub-dev-201937-unauthRole",
+      "StackName": "amplify-mygamehub-dev-201937",
+      "StackId": "arn:aws:cloudformation:us-east-1:500893028446:stack/amplify-mygamehub-dev-201937/ed343ec0-3a9e-11eb-89bc-12bdd946785e",
+      "AmplifyAppId": "d2sdns53d6bbsg"
+    }
+  }
+}
